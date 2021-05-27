@@ -66,6 +66,21 @@ main .input-fields {
     align-items: center;
     justify-content: space-evenly;
 }
+
+.output > div {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.output div div {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .input-fields input:focus,
 .input-fields button:focus,
 .input-fields button:hover {
@@ -73,4 +88,13 @@ main .input-fields {
 }
 #temp {
     color: var(--prussian-blue);
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.display {
+    display: none;
 }
