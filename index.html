@@ -16,8 +16,8 @@
 
     <main>
         <div class="input-fields">
-            <input type="text" placeholder="Enter the city">
-            <button>Done</button>
+            <input type="text" placeholder="Enter the city" spellcheck="false">
+            <button>Search</button>
         </div>
 
         <div class="output">
@@ -26,7 +26,6 @@
                     <h2 id="name">No City Found</h2>
                     <p id="country"></p>
                 </div>
-                <!-- <canvas id="icon1" width="50" height="50"></canvas> -->
                 <img src="" class="display">
             </div>
             <h1 id="temp">0 C</h1>
@@ -36,6 +35,13 @@
     </main>
 
     <script src="script.js"></script>
+    <script>
+        // Checking the machine has internet connection.
+        console.log('Initially ' + (window.navigator.onLine ? 'on' : 'off') + 'line');
+
+        window.addEventListener('online', () => alert('You are now online'));
+        window.addEventListener('offline', () => console.log('You are now offline'));
+    </script>
 </body>
 
 </html>
