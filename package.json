@@ -1,0 +1,22 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather application using vanilla javascript",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashiqfury/Weather-Application.git"
+  },
+  "author": "ashiqfury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashiqfury/Weather-Application/issues"
+  },
+  "homepage": "https://github.com/ashiqfury/Weather-Application#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
